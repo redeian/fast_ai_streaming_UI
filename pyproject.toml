@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "aistreamingui"
+version = "0.1.0"
+description = ""
+authors = ["Chatchai Wangwiwattana <redeian@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
